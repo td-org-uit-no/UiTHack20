@@ -61,22 +61,30 @@ We define the following categories of challenges, with a minimum of three(3) in 
 
 ###### Noob
 Usually file/shell manipulation in Bash
+- [] Classics: cat, .filename, using find
+- [] Unzipping different formats was fun and challening last year
 
 ###### Pwn
 Pwn the system: gain access to some system with a buffer overflow, code injection, password cracking...
+- [] Python eval exploitation
 
 ###### Reverse Engineering
 Pick apart the program to figure out how it works
+- [] input with strong constraints
 
 ###### Crypto
 Classic ciphers and number fun 
 
 ###### Web
 Fun with websites and web code
+- [] Some kind of XSS
+- [] network traces?
 
 ###### IRL
 Challenges on site: lock-picking, treasure hunting or whatever else
 
 ###### Misc
 Any other challenges we can come up with
-- [] Esoteric horrorshow
+- [] Esoteric horrorshow (brainfuck? Piet? Whitespace?)
+- [] Whitespace could hide in another language (like C)
+- [] GLADoS
