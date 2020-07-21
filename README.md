@@ -28,7 +28,6 @@
 
 - [] Add urls to Web challs
 
-
 - [] Post Misc challs
 
 - [] Post IRL challs (only on-site)
@@ -62,7 +61,7 @@ We define the following categories of challenges, with a minimum of three(3) in 
 ###### Noob
 Usually file/shell manipulation in Bash
 - [] Classics: cat, .filename, using find
-- [] Unzipping different formats was fun and challening last year
+- [] Unzipping different formats was fun and challenging last year
 
 ###### Pwn
 Pwn the system: gain access to some system with a buffer overflow, code injection, password cracking...
@@ -88,3 +87,4 @@ Any other challenges we can come up with
 - [] Esoteric horrorshow (brainfuck? Piet? Whitespace?)
 - [] Whitespace could hide in another language (like C)
 - [] GLADoS
+- [] "mad scientist" C stuff
