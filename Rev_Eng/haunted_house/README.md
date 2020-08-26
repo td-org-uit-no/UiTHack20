@@ -1,6 +1,10 @@
-Imagine you're walking through a haunted puzzle house and you need to find the password from a challenge to advance. 
+# Haunted house
+> Reverse Engineering - TBD pts
 
-Unfortunately you only have access to the software and dont know what the tasks were.  
+You find yourself in an old haunted house. To advance to the next rooms you need to enter a passphrase based on a challenge infront of you. <br>
+Except nothing is real and you only have a binary file for the house.
 There are 3 steps, each with a unique passphrase.
 
 Good luck.
+
+[Writeup](./writeup.md)
