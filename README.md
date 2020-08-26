@@ -1,7 +1,7 @@
 # UiTHack20
 
 ## Status/TODO
-- [ ] Find CTF theme
+- [X] Find CTF theme -> Indiana Jones/digital archaeology action adventure genré ish 
 
 - [ ] Create Crypto challs
      
