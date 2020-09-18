@@ -73,7 +73,7 @@ Pwn the system: gain access to some system with a buffer overflow, code injectio
 ###### Reverse Engineering
 Pick apart the program to figure out how it works
 - [ ] Input with strong constraints
-- [ ] Use standard libraries in C, like printf and scanf, prompting for questions, so one solution could be from using ltrace to se what the functions hold as an answer. 
+- [x] Use standard libraries in C, like printf and scanf, prompting for questions, so one solution could be from using ltrace to se what the functions hold as an answer. 
 - [ ]  Chall using xxd/cat/string&grep to see the string in the binary file. 
 
 ###### Crypto
