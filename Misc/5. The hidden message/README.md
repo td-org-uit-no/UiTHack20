@@ -6,4 +6,4 @@ While exploring the dark room you found a laptop with a soundfile named "Live fr
 Files: 
 [source code](./scr/)
 
-[Writeup](./writeup) 
+[Writeup](./writeup.md) 

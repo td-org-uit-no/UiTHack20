@@ -6,4 +6,4 @@ When you are wandering around and get lost in the dark, try looking for the <b>w
 Files: 
 [source code](./scr/)
 
-[Writeup](./writeup) 
+[Writeup](./writeup.md) 
