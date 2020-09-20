@@ -100,8 +100,8 @@ Challenges on site: lock-picking, treasure hunting or whatever else
 ###### Misc
 Any other challenges we can come up with
 - [ ] Esoteric horrorshow (brainfuck? Piet? Whitespace?)
-- [ ] Whitespace could hide in another language (like C)
+- [x] Whitespace could hide in another language (like C)
 - [ ] GLADoS
 - [ ] "mad scientist" C stuff
-- [ ] Soundwave password
+- [x] Soundwave password
 - [ ] EasterEgg on TD's webpage
