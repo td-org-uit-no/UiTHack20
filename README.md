@@ -84,10 +84,11 @@ Classic ciphers and number fun
 
 ###### Web
 Fun with websites and web code
+- [ ] Simple first web chall, with password and username in html source code or the flag in the source code
+- [X] URL redirect with right path e.g. /flag.txt /robots.txt etc
 - [ ] Some kind of XSS
-- [ ] network traces?
 - [ ] Wireshark analysing stuff.
-- [ ] Inverse an QR code that can be found on a secret endpoint on a website.
+- [X] Inverse an QR code that can be found on a secret endpoint on a website.
 - [ ] Some php script to get the secret file from the db?
 - [ ] Website where you need to press the `+` button to increase your score, the goal is 500 000 points. Mess with POST request or perhaps a SQL injection?
  
