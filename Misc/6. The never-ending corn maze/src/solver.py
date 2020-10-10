@@ -1,10 +1,12 @@
 from pathfinding.core.grid import Grid
 from pathfinding.finder.a_star import AStarFinder
 
+
 def index_2d(myList, v):
     for i, x in enumerate(myList):
         if v in x:
             return (i, x.index(v))
+
 
 def parse_list_to_op_string(pathlist):
     string = ''
@@ -16,19 +18,20 @@ def parse_list_to_op_string(pathlist):
             prev_y = y
             continue
         else:
-            if prev_x == x and prev_y < y:  #moved only downwards
-                string += 'r'
-            elif prev_x == x and prev_y > y:  # moved only upwards
-                string += 'l'
-            elif prev_y == y and prev_x > x:  # moved only left
-                string += 'u'
-            elif prev_y == y and prev_x < x:  # moved only right
+            if prev_x == x and prev_y < y:  # moved only downwards
                 string += 'd'
+            elif prev_x == x and prev_y > y:  # moved only upwards
+                string += 'a'
+            elif prev_y == y and prev_x > x:  # moved only left
+                string += 'w'
+            elif prev_y == y and prev_x < x:  # moved only right
+                string += 's'
 
             prev_x = x
             prev_y = y
 
     return string
+
 
 def solve_maze(maze):
     level = []
@@ -55,7 +58,6 @@ def solve_maze(maze):
     finder = AStarFinder()
     path, runs = finder.find_path(start_node, end_node, grid)
 
-    
     output = parse_list_to_op_string(path)
-    
+
     return output

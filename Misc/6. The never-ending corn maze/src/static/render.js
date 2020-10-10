@@ -3,14 +3,14 @@ function update_player_pos() {
   let canvas = document.getElementById('maze');
   if (canvas.getContext) {
     ctx.fillRect(
-        player_y * draw_size, player_x * draw_size, draw_size, draw_size);
+      player_y * draw_size, player_x * draw_size, draw_size, draw_size);
   }
   input_field.value = accumulated_input;
 }
 
 
 function move_left() {
-  if (maze_array[player_y - 1][player_x] == ' ') {
+  if (maze_array[player_y - 1][player_x] == ' ' || maze_array[player_y - 1][player_x] == 'G') {
     player_y -= 1;
     maze_array[player_y][player_x] = 'P';
     accumulated_input += 'a';
@@ -19,7 +19,7 @@ function move_left() {
 }
 
 function move_right() {
-  if (maze_array[player_y + 1][player_x] == ' ') {
+  if (maze_array[player_y + 1][player_x] == ' ' || maze_array[player_y + 1][player_x] == 'G') {
     player_y += 1;
     maze_array[player_y][player_x] = 'P';
     accumulated_input += 'd';
@@ -28,7 +28,7 @@ function move_right() {
 }
 
 function move_up() {
-  if (maze_array[player_y][player_x - 1] == ' ') {
+  if (maze_array[player_y][player_x - 1] == ' ' || maze_array[player_y][player_x - 1] == 'G') {
     player_x -= 1;
     maze_array[player_y][player_x] = 'P';
     accumulated_input += 'w';
@@ -37,7 +37,7 @@ function move_up() {
 }
 
 function move_down() {
-  if (maze_array[player_y][player_x + 1] == ' ') {
+  if (maze_array[player_y][player_x + 1] == ' ' || maze_array[player_y][player_x + 1] == 'G') {
     player_x += 1;
     maze_array[player_y][player_x] = 'P';
     accumulated_input += 's';
