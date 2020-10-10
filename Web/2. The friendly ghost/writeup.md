@@ -5,7 +5,7 @@
 > If you know his name, write it in the input and see his website!
 > 
 > Files: 
-> [source code](./scr/)
+> [source code](./src/)
 
 ## Writeup
 
