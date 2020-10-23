@@ -6,3 +6,5 @@
 
 [5. The hidden message](./5.%20The%20hidden%20message)
 <!-- - [1. Not gonna get me](./1.%20Not%20gonna%20get%20me) -->
+
+[6. The never-ending cornmaze](./6.%20The%20never-ending%20corn%20maze)
