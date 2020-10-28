@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>TDHack2020🧑‍💻</title>
+    <style>
+        body {
+            background-color:darkslategray;
+            max-width: 70%;
+            margin: auto;
+            padding: 5%;
+        }
+        p {color: white;}
+        h1 {color: white;}
+    </style>
+</head>
+
+<body>
+    <h1>Its back isn't it?</h1>
+    <p>It appears the monster is after me again. <br>
+    I must conceal my tracks better this time.</p>
+    <form method="POST" enctype="text/plain" autocomplete="off">
+        <input type="text" name="input" id="input" value="" >
+        <input type="submit" value="submit">
+    </form>
+    {% if unpickle_result %}
+    <p>{{unpickle_result}}</p>
+    {% endif%}
+</body>
+
+</html>
