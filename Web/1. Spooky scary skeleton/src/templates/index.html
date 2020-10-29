@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>UiTHack 2020🧑‍💻</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='spooky_style.css') }}">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700,900" rel="stylesheet">
+        <!-- TODO REMOVE DEBUG LOGIN
+            U: "skeleton"
+            P: "Spooky and scary password"
+        -->
+    </head>
+    <body>
+        <h1>Spooky scary loginpage</h1>
+        <div class="row">
+            <form method="POST">
+                <label for="username">username</label>
+                <input type="text" name="username"> <br>
+                <label for="password">password</label>
+                <input type="password" name="password" label="password"> <br>
+                <input type="submit" value="submit">
+            </form>
+            {% if flag %}
+            <p>{{flag}}</p>
+            {% endif %}
+        </div>
+    </body>
+</html>
