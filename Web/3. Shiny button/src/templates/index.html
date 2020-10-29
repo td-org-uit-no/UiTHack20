@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>UiTHack2020🧑‍💻</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Such a pretty button, would be a shame if someone were to press it</h1>
+
+    {% if count %}
+    <h3>{{count}}</h3>
+    {% endif%}
+
+    <form method="POST">
+        <button type="submit" value="submit">PRESS ME</button>
+    </form>
+    {% if flag %}
+    <p>{{flag}}</p>
+    {% endif %}
+    {% if mockery %}
+    <p>{{mockery}}</p>
+    {% endif %}
+
+    <!-- it's really shiny isn't it -->
+</body>
+
+</html>
