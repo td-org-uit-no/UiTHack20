@@ -62,12 +62,12 @@ We define the following categories of challenges, with a minimum of three(3) in 
 
 ###### Noob
 Usually file/shell manipulation in Bash
-- [ ] Classics: cat, .filename, using find, grep
+- [x] Classics: cat, .filename, using find, grep
 - [ ] Unzipping different formats was fun and challenging last year
 
 ###### Pwn
 Pwn the system: gain access to some system with a buffer overflow, code injection, password cracking...
-- [ ] Python eval exploitation
+- [x] Python eval exploitation
 - [ ] Some assembly injection thing??
 
 ###### Reverse Engineering
@@ -78,6 +78,10 @@ Pick apart the program to figure out how it works
 
 ###### Crypto
 Classic ciphers and number fun 
+- [x] Spiral cipher
+- [x] Periodic system cipher
+- [x] Serpent cipher
+- [x] Base64 partially hidden in text
 - [ ] Cæsar cipher
 - [ ] Hill cipher (oppgi den orginale matrisen, slik at de må gjøre en invers)
 - [ ] RSA-encoder/decoder python code, you get the cipher etc and need to try and decipher it. 
@@ -90,19 +94,20 @@ Fun with websites and web code
 - [ ] Wireshark analysing stuff.
 - [X] Inverse an QR code that can be found on a secret endpoint on a website.
 - [ ] Some php script to get the secret file from the db?
-- [ ] Website where you need to press the `+` button to increase your score, the goal is 500 000 points. Mess with POST request or perhaps a SQL injection?
+- [x] Website where you need to press the `+` button to increase your score, the goal is 500 000 points. Mess with POST request or perhaps a SQL injection?
  
-###### IRL
-Challenges on site: lock-picking, treasure hunting or whatever else
-- [ ] Some form of social engineering?
-- [ ] Lock picking ofc.
+###### ~~IRL
+Challenges on site: lock-picking, treasure hunting or whatever else~~
+- [ ] ~~Some form of social engineering?~~
+- [ ] ~~Lock picking ofc.~~
 
 
 ###### Misc
 Any other challenges we can come up with
-- [ ] Esoteric horrorshow (brainfuck? Piet? Whitespace?)
+- [x] Esoteric horrorshow (Whitespace)
 - [x] Whitespace could hide in another language (like C)
 - [ ] GLADoS
 - [ ] "mad scientist" C stuff
 - [x] Soundwave password
 - [ ] EasterEgg on TD's webpage
+- [x] Really big maze
