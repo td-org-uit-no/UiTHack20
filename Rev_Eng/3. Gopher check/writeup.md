@@ -24,4 +24,4 @@ function:
 xor = lambda a,b: map(lambda x:x[0]^x[1],zip(a,b))
 ```
 
-Plugging the two components into the xor function yields the flag: `UiTHack20{}`.
+Plugging the two components into the xor function yields the flag: `UiTHack20{gophers_are_secretive}`.
