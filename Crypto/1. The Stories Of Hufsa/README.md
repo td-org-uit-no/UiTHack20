@@ -1,3 +1,4 @@
+# The stories of Hufsa
 
 The mythic creature Hufsa travels to Rome and stumbles upon this strange message that looks like it hides a secret:
 
