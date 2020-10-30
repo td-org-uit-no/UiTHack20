@@ -3,36 +3,36 @@
 ## Status/TODO
 - [X] Find CTF theme -> Halloween 
 
-- [ ] Create Crypto challs
+- [x] Create Crypto challs
      
-- [ ] Create Noob challs
+- [x] Create Noob challs
  
 - [ ] Create Pwn challs
  
 - [ ] Create RE challs
  
-- [ ] Create Web challs
+- [x] Create Web challs
  
-- [ ] Create Misc challs
+- [x] Create Misc challs
  
-- [ ] IRL challs (only on-site)
+- [ ] ~~IRL challs (only on-site)~~
 
 ## Post on Website
-- [ ] Post Crypto challs
+- [x] Post Crypto challs
      
-- [ ] Post Noob challs
+- [x] Post Noob challs
  
 - [ ] Post Pwn challs
  
 - [ ] Post RE challs
  
-- [ ] Post Web challs
+- [x] Post Web challs
  
 - [ ] Add urls to Web challs
  
-- [ ] Post Misc challs
+- [x] Post Misc challs
  
-- [ ] Post IRL challs (only on-site)
+- [ ] ~~Post IRL challs (only on-site)~~
 
 ## TODO On the day
 
@@ -88,7 +88,7 @@ Classic ciphers and number fun
 
 ###### Web
 Fun with websites and web code
-- [ ] Simple first web chall, with password and username in html source code or the flag in the source code
+- [x] Simple first web chall, with password and username in html source code or the flag in the source code
 - [X] URL redirect with right path e.g. /flag.txt /robots.txt etc
 - [ ] Some kind of XSS
 - [ ] Wireshark analysing stuff.
