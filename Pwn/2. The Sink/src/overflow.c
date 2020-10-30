@@ -4,10 +4,10 @@
 int main(int argc, char **argv)
 {
     long number = 0;
-    char input[16];
+    char input[200];
     
-    printf("Welcome to UiTHack2020, the sink is overflowing\n");
-    printf("What do you want to do?\n");
+    printf("\n\nCan you drown in a sink?\n");
+    printf("And how do you do it?\n");
     
     gets(input);
     
