@@ -1,3 +1,8 @@
 # Noob challenges
 
-<!-- - [1. Not gonna get me](./1.%20Not%20gonna%20get%20me) -->
+- [room1](./room1)
+- [room2](./room2)
+- [room3](./room3)
+- [room4](./room4)
+- [room5](./room5)
+- [room6](./room6)
