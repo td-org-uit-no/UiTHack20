@@ -1,5 +1,5 @@
 > # The friendly ghost
-> > Web - 100pts
+> > Web - 150pts
 > 
 > Not all ghosts are scary! We have a friendly ghost here, and he's the most famous one as well!
 > If you know his name, write it in the input and see his website!
