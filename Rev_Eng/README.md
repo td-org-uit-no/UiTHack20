@@ -5,3 +5,6 @@
 [2. The String](./2.%20The%20string)
 
 [3. Rusty Lock](./3.%20Rusty%20Lock)
+
+[4. Gopher check](./4.%20Gopher%20check)
+
