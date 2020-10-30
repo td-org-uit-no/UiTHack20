@@ -1,5 +1,5 @@
 [package]
-name = "check"
+name = "rusty-check"
 version = "0.1.0"
 authors = ["Nikolai Magnussen <nikolai@magnussen.tf>"]
 edition = "2018"

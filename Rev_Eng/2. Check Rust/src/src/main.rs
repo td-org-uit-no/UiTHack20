@@ -9,9 +9,16 @@ struct Challenge {
 impl Challenge {
     fn new() -> Self {
         Challenge {
-            encryption_key: [135, 62, 148, 201, 144, 220, 57, 145, 251, 196, 165, 85, 181, 201, 34, 95, 37, 23, 19, 47, 136, 253, 20, 127, 33, 142, 243, 93, 78, 160, 50, 9],
-            password: [244, 75, 228, 172, 226, 131, 74, 244, 152, 182, 192, 33, 234, 185, 67, 44, 86, 96, 124, 93, 236, 162, 102, 22, 70, 230, 135, 2, 38, 197, 64, 108],
-            flag: [210, 87, 192, 129, 241, 191, 82, 163, 203, 191, 196, 59, 218, 189, 74, 58, 87, 72, 117, 67, 233, 154, 75, 29, 72, 250, 150, 2, 58, 200, 87, 116],
+            encryption_key: [135, 62, 148, 201, 144, 220, 57, 145, 251, 196,
+                             165, 85, 181, 201, 34, 95, 37, 23, 19, 47, 136,
+                             253, 20, 127, 33, 142, 243, 93, 78, 160, 50, 9],
+            password: [230, 93, 224, 188, 241, 176, 85, 232, 164, 178, 192, 39,
+                       204, 150, 70, 54, 67, 113, 122, 76, 253, 145, 96, 32, 81,
+                       239, 128, 46, 57, 207, 64, 109],
+            flag: [210, 87, 192, 129, 241, 191, 82, 163, 203, 191, 199, 60, 219,
+                   168, 80, 54, 64, 100, 76, 88, 225, 137, 124, 32, 82, 235, 144,
+                   47, 43, 212, 65, 116],
+
         }
     }
 
@@ -57,8 +64,8 @@ mod tests {
     fn test_expected_chall() {
         let chall = Challenge::new();
         let expected_encryption_key = [135, 62, 148, 201, 144, 220, 57, 145, 251, 196, 165, 85, 181, 201, 34, 95, 37, 23, 19, 47, 136, 253, 20, 127, 33, 142, 243, 93, 78, 160, 50, 9];
-        let expected_password = [244, 75, 228, 172, 226, 131, 74, 244, 152, 182, 192, 33, 234, 185, 67, 44, 86, 96, 124, 93, 236, 162, 102, 22, 70, 230, 135, 2, 38, 197, 64, 108];
-        let expected_flag = [210, 87, 192, 129, 241, 191, 82, 163, 203, 191, 196, 59, 218, 189, 74, 58, 87, 72, 117, 67, 233, 154, 75, 29, 72, 250, 150, 2, 58, 200, 87, 116];
+        let expected_password = [230, 93, 224, 188, 241, 176, 85, 232, 164, 178, 192, 39, 204, 150, 70, 54, 67, 113, 122, 76, 253, 145, 96, 32, 81, 239, 128, 46, 57, 207, 64, 109];
+        let expected_flag = [210, 87, 192, 129, 241, 191, 82, 163, 203, 191, 199, 60, 219, 168, 80, 54, 64, 100, 76, 88, 225, 137, 124, 32, 82, 235, 144, 47, 43, 212, 65, 116];
         assert_eq!(chall.encryption_key, expected_encryption_key);
         assert_eq!(chall.password, expected_password);
         assert_eq!(chall.flag, expected_flag);
@@ -67,7 +74,7 @@ mod tests {
     #[test]
     fn test_decrypt_password() {
         let chall = Challenge::new();
-        let expected_password = b"super_secret_password_right_here";
+        let expected_password = b"actually_very_difficult_password";
 
         assert_eq!(chall.decrypt_data(&chall.password), expected_password);
     }
@@ -75,7 +82,7 @@ mod tests {
     #[test]
     fn test_decrypt_flag() {
         let chall = Challenge::new();
-        let expected_flag = b"UiTHack20{another_flag_bite_the}";
+        let expected_flag = b"UiTHack20{binaries_with_secrets}";
 
         assert_eq!(chall.decrypt_data(&chall.flag), expected_flag);
     }
@@ -84,7 +91,7 @@ mod tests {
     fn test_check_password() {
         let chall = Challenge::new();
         
-        assert_eq!(chall.check_password("super_secret_password_right_here"), true);
+        assert_eq!(chall.check_password("actually_very_difficult_password"), true);
         assert_eq!(chall.check_password("this_is_the_wrong_password"), false);
     }
 }
