@@ -1,12 +1,8 @@
-# Rusty Check
-
-> Ikke sikker på poengene, men ikke altfor vanskelig.
-> Utfordringen/det interessante her er at det ikke er C/CPP,
-> men heller Rust som binaryen er skrevet i.
-> 
-> (Kan du finne på noe spennende her?)
-> 
-> Can you determine the password and retrieve the flag?
+># Rusty Lock
+>> Rev_eng - 200pts
+>
+>As you explore you come upon an old locked door. You see the lock is rusted shut. \
+>Can you find a way to break through the door?
 > 
 > ### Files
 > 
