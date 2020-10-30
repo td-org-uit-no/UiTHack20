@@ -1,6 +1,7 @@
 ># Shiny button
+> > Web - 250pts
 >
->Walking around some dark halls you find youself in a larger room. 
+>Walking around some dark halls you find yourself in a larger room. 
 >The room is barren with intricate carved store walls and a pedestal in the centre.
 >Upon the pedestal is a large red button. \
 >Although this very much looks like a trap, what else can you do but press it and find out.
@@ -21,4 +22,9 @@ while 1:
         print(r.content)
         break
 
+```
+
+Flag:
+```
+UiTHack20{The_definition_0f_insan1ty_1s_d0ing_the_same_thing_over_and_0ver_again_and_expecting_d1fferent_results}
 ```
