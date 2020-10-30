@@ -1,5 +1,5 @@
 # The Sink
-> Misc - 100pts
+> Misc - 150pts
 
 Can you drown in a sink? And how do you do it?
 
