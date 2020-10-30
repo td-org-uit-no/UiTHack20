@@ -1,9 +1,9 @@
 # What you can't see
-> Misc - points?
+> Misc - 200pts
 
-When you are wandering around and get lost in the dark, try looking for the <b>white</b> light in between the <b>space</b>s.
+When you are wandering around in the dark, you see something in the distance. But when you get there, there is nothing there.
 
 Files: 
-[source code](./scr/)
+[source code](./src/)
 
 [Writeup](./writeup.md) 

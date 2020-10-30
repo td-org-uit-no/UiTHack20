@@ -1,9 +1,10 @@
 # The hidden message
-> Misc - points?
+> Misc - 100
 
-While exploring the dark room you found a laptop with a soundfile named "Live from spektrum". When you start playing the soundfile, you were wondering, what is this.
+While exploring the dark room, you hear a sound in the distance. When you get closer you notice there is something wrong with it.
 
 Files: 
-[source code](./scr/)
+
+[source code](./src/)
 
 [Writeup](./writeup.md) 
