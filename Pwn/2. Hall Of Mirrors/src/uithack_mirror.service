@@ -1,0 +1,14 @@
+[Unit]
+Description=UiTHack Mirror Server
+After=network.target
+
+[Service]
+Type=simple
+User=mirror
+Restart=always
+RestartSec=1
+WorkingDirectory=/home/mirror
+ExecStart=/usr/bin/socat TCP-LISTEN:5555,reuseaddr,fork EXEC:"/home/mirror/terminal",stderr
+
+[Install]
+WantedBy=multi-user.target

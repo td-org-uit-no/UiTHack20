@@ -5,6 +5,10 @@
 
 int main()
 {
+    setvbuf(stdin, NULL, _IONBF, 0);
+    setvbuf(stdout, NULL, _IONBF, 0);
+    setvbuf(stderr, NULL, _IONBF, 0);
+
     char buffer[256] = { 0 };
 
     //flag obfuscation
@@ -59,7 +63,7 @@ int main()
         flag[i] = flag[i] + 7;
     }
 
-    setvbuf(stdin, NULL, _IONBF, 0);
+    
     while (1) {
 
         printf("> ");

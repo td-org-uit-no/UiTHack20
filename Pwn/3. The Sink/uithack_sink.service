@@ -1,0 +1,14 @@
+[Unit]
+Description=UiTHack Sink Server
+After=network.target
+
+[Service]
+Type=simple
+User=sink
+Restart=always
+RestartSec=1
+WorkingDirectory=/home/sink
+ExecStart=/usr/bin/socat TCP-LISTEN:3333,reuseaddr,fork EXEC:"/home/sink/overflow",stderr
+
+[Install]
+WantedBy=multi-user.target

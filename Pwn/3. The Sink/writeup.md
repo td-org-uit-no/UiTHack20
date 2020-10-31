@@ -1,13 +1,11 @@
-># What you can't see
->> Misc - 150pts
+># The Sink
+>> Pwn - 200pts
 >
->While looking in the source code, the devil is in the details
+>Can you drown in a sink? And how do you do it?
+>
 >
 >Files: 
->[source code](./scr/)
->
->[Writeup](./writeup) 
->
+>[source code](./src/)
 
 ## Writeup
 

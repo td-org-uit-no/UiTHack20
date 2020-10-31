@@ -1,4 +1,5 @@
 ># Frankensteins monster
+>> Pwn - 300pts
 >
 >Frankensteins monster is angry with you. 
 >You can try run. You can try to hide. 
@@ -7,6 +8,8 @@
 >Your only choice is to distract the monster. 
 >
 >Luckily for you, Dr. Frankenstein has [contingencies](http://>fire-breathing-unicorn.td.org.uit.no:56733/). 
+
+## Writeup
 
 The backend tries to deserialize the input string into a python object.
 This is done using dill so functions can be input and executed.
@@ -23,3 +26,8 @@ print(dill.dumps(print_flag))
 ```
 
 Then this can either be posted to the URL or input into the input field.
+
+Flag:
+```
+UiTHack20{p1ckeled_brAiNs_Are_The_tast14st}
+```
