@@ -3,6 +3,10 @@
 
 int main(int argc, char **argv)
 {
+    setvbuf(stdin, NULL, _IONBF, 0);
+    setvbuf(stdout, NULL, _IONBF, 0);
+    setvbuf(stderr, NULL, _IONBF, 0);
+    
     long number = 0;
     char input[200];
     

@@ -1,0 +1,14 @@
+[Unit]
+Description=UiTHack Calculator Server
+After=network.target
+
+[Service]
+Type=simple
+User=calculator
+Restart=always
+RestartSec=1
+WorkingDirectory=/home/calculator
+ExecStart=/usr/bin/socat TCP-LISTEN:5555,reuseaddr,fork EXEC:"/home/calculator/CalculatorLinux",stderr
+
+[Install]
+WantedBy=multi-user.target
