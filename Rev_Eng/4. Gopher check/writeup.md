@@ -1,16 +1,13 @@
-# Gopher Check
-
-> Ikke sikker på poengene, men ikke altfor vanskelig.
-> Utfordringen/det interessante her er at det ikke er C/CPP,
-> men heller Rust som binaryen er skrevet i.
+># Gopher Check
+>> Rev_Eng - 250pts
+>While exploring you hear a faint noise from the walls. <br>
+>Invesigating this you find a tiny hole. Within the small dark hole lies a >tiny keyhole. <br>
+>You have found keys previously but none like this. <br>
+>Can you find the correct key?
 > 
-> (Kan du finne på noe spennende her?)
-> 
-> Can you determine the password and retrieve the flag?
-> 
-> ### Files
 > 
 > * [gopher-check](./gopher-check)
+
 ## Writeup
 
 Reverse engineering this binary will reveal that upon entering the correct password,

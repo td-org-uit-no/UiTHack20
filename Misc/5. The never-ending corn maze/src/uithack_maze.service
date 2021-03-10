@@ -1,0 +1,12 @@
+[Unit]
+Description=UiTHack Maze Server
+After=network.target
+
+[Service]
+Type=simple
+User=unicorn
+WorkingDirectory=/srv/maze/src
+ExecStart=/home/unicorn/.local/bin/gunicorn -w 4 -b 0.0.0.0:7490 server:app
+
+[Install]
+WantedBy=multi-user.target
