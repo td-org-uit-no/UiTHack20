@@ -36,11 +36,13 @@ def verify_input():
     input_path = request.form['input']
     input_mazehash = request.form['maze_hash']
 
-    if input_path == hash_to_solution[input_mazehash]:
-        return "UiTHack20{If_a_man_does_not_have_the_sauce,_then_he_is_lost._But_the_same_man_can_be_lost_in_the_sauce}"
+    if input_mazehash in hash_to_solution:
+        if input_path == hash_to_solution[input_mazehash]:
+            return "UiTHack20{If_a_man_does_not_have_the_sauce,_then_he_is_lost._But_the_same_man_can_be_lost_in_the_sauce}"
+        else:
+            return "wrong path try again :)"
     else:
         return "wrong path try again :)"
-
 
 @app.route("/", methods=['GET'])
 def index():
